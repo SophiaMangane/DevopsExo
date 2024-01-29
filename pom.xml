@@ -11,5 +11,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+       <sonar.host.url>http://localhost:9000</sonar.host.url>
+       <sonar.login>jenkins-sonar-token</sonar.login>
     </properties>
 </project>
